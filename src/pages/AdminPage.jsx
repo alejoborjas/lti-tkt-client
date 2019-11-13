@@ -39,8 +39,8 @@ const useStyles = makeStyles(theme => ({
 
 const AdminPage = () => {
     const classes = useStyles();
-        const [open, setOpen] = React.useState(false);
-        const [drawerSelected, setDrawerSelected] = React.useState('');
+    const [open, setOpen] = React.useState(false);
+    const [drawerSelected, setDrawerSelected] = React.useState('');
 
     const handleDrawerClose = () => {
         setOpen(false);
