@@ -1,8 +1,9 @@
 import React from 'react';
+import AdminPage from './pages/AdminPage';
 
 const App = () => {
   return (
-    <div>Hello, React!</div>
+    <AdminPage />
   );
 }
 
